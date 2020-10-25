@@ -79,8 +79,8 @@ int main()
 	draw_ship(x, y);
 	do {
 		gotoxy(65, 0);
-		setcolor(8, 0);
-		printf("score : %d", score);
+		setcolor(3, 0);
+		printf("Score : %d", score);
 		if (_kbhit()) {
 			ch = _getch();
 			if (ch == 'a') walk = 1;
